@@ -1,0 +1,17 @@
+1. install  python
+2. Create a venv
+    python3 -m venv venv/  "alias is only created by default in Linux-based OS like Ubuntu and macOS."
+    py -m venv venv/ "for windows or could be "pyhton" instead of "py" "
+3. Activate the venv
+    if you have the Scripts folder on venv folder
+    on the terminal write command "cd venv/Scripts/"
+    then write .\activate if you close the venv just go to "cd venv/Scripts/" and write deactivate
+4. install flask and gunicorn 
+    go to cd venv
+    write command pip3 install flask gunicorn
+5. Create the .gitignore file 
+6 create a main file server
+7.uload API https://levelup.gitconnected.com/how-to-deploy-a-python-flask-api-on-heroku-2e5ddfd943ef
+8.pip3 freeze > requirements.txt
+9. Procfile 
+10. upload lupitasgroup-drivelicense
